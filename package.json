@@ -1,0 +1,14 @@
+{
+  "name": "tilelive-null",
+  "version": "0.0.0",
+  "description": "A noop sink for tilelive",
+  "main": "index.js",
+  "author": "Seth Fitzsimmons <seth@mojodna.net>",
+  "license": "ISC",
+  "homepage": "https://github.com/mojodna/tilelive-null",
+  "bugs": "https://github.com/mojodna/tilelive-null/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mojodna/tilelive-null.git"
+  }
+}
