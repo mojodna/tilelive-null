@@ -1,7 +1,7 @@
 "use strict";
 
 var Null = function(uri, callback) {
-  return setImmediate(callback);
+  return setImmediate(callback, null, this);
 };
 
 Null.registerProtocols = function(tilelive) {
@@ -9,6 +9,10 @@ Null.registerProtocols = function(tilelive) {
 };
 
 Null.prototype.putTile = function(z, x, y, data, callback) {
+  return setImmediate(callback);
+};
+
+Null.prototype.putInfo = function(obj, callback) {
   return setImmediate(callback);
 };
 
